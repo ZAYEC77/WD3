@@ -1,0 +1,179 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	background: black;
+	color: white;
+}
+
+a {	
+	text-decoration: underline;
+}
+
+a:hover,
+.wrapper a:hover {	
+	color: white;
+	text-decoration: none;
+}
+
+h1,
+h2 {
+	text-transform: uppercase;
+}
+
+h1 {
+	line-height: 29px;
+	font-size: 26px;
+	padding-left: 50px;
+	background: url('../img/h1_bckg.jpg') no-repeat;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+p,
+.wrapper ul li {
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.container {
+	width: 1259px;
+	background: url('../img/body_all_bckg.jpg') repeat-y;
+}
+
+header {	
+	background: url('../img/body_top_bckg.jpg') no-repeat;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header span {
+	display: block;
+	font-weight: bold;
+	font-size: 26px;
+	padding: 140px 0 120px 0;
+	text-transform: uppercase;
+}
+
+
+.nav {
+	width: 367px;
+	border: none;
+	padding-bottom: 68px;
+	margin: 10px auto 20px auto;
+}
+
+.nav li a {	
+	border: none;
+	border-radius: 0;
+	color: white;
+	margin: 0;
+	padding: 0 11px;
+	font-weight: bold;
+	background: #445d6c;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.nav li {
+	margin: 0 2px;
+}
+
+.nav li a:hover {
+	background: transparent;	
+	background: #018bc1;
+}
+
+.nav li.pink a:hover {
+	background: #ca1754;
+}
+
+.nav li.red a:hover {
+	background: #e92f1c;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 780px;
+}
+
+
+.wrapper a {
+	color: #018bc1;
+}
+
+.left {
+	margin: 0;
+	width: 494px;
+	float: left;
+}
+
+.left ul {
+	margin-left: 40px;
+	padding-bottom: 20px;
+}
+
+.sidebar {
+	margin-left: 50px;
+	float: left;
+	width: 227px;
+	padding: 20px 10px;
+	background: #0b0e10;
+	padding: 0;
+}
+
+.sidebar h2,
+.sidebar p {
+	margin: 10px 40px 10px 20px;
+}
+
+.sidebar h2 {
+	margin-bottom: 5px;
+}
+
+.sidebar p {
+	margin-top: 0px;
+	line-height: 16px;
+}
+
+.sidebar .top {
+	background: url('../img/sidebar_top.jpg') no-repeat;
+	height: 40px;
+}
+
+.sidebar .bottom {
+	background: url('../img/sidebar_bottom.jpg') no-repeat;
+	height: 57px;
+	margin-top: 30px;
+}
+
+footer {
+	font-size: 11px;
+	margin: 0 auto;
+	width: 780px;
+}
+
+footer span {
+	padding-left: 30px;
+}
+
+footer span.right {
+	float: right;
+	padding-right: 40px;
+}
+
+footer a {
+	color: white;
+}
+
+footer .bg {
+	height: 59px;
+	background: url('../img/footer_bckg.jpg') no-repeat;
+}
