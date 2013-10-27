@@ -124,9 +124,18 @@ header span {
 	margin-left: 50px;
 	float: left;
 	width: 227px;
-	padding: 20px 10px;
-	background: #0b0e10;
+	padding: 20px 20px;
 	padding: 0;
+}
+
+.sidebar form {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.sidebar form input[type="text"]{
+	width: 90%;
 }
 
 .sidebar h2,
